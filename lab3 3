@@ -11,9 +11,9 @@ int main()
     scanf("%d",&y);
     a=pow(x,2)+pow(y,2);
     b=sqrt(x-y);
-    if (a<=0 || b<=0)
+    if (b<=0)
     {
-        printf("У відповіді від'ємне число %d", b);
+        printf("У відповіді є від'ємне число ");
     }
     else
     {
