@@ -1,0 +1,26 @@
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int x,f,y,a,b;
+    printf("x=");
+    scanf("%d",&x);
+    printf("y=");
+    scanf("%d",&y);
+    a=pow(x,2)+pow(y,2);
+    b=sqrt(x-y);
+    if (a<=0 || b<=0)
+    {
+        printf("У відповіді від'ємне число %d", b);
+    }
+    else
+    {
+        f=a/b;
+        printf("a = %d",f);
+            
+        
+    }
+    
+}
