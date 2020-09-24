@@ -4,11 +4,11 @@
 
 int main()
 {
-    int x,f,y,a,b;
+    float x,f,y,a,b;
     printf("x=");
-    scanf("%d",&x);
+    scanf("%f",&x);
     printf("y=");
-    scanf("%d",&y);
+    scanf("%f",&y);
     a=pow(x,2)+pow(y,2);
     b=sqrt(x-y);
     if (b<=0)
@@ -18,7 +18,7 @@ int main()
     else
     {
         f=a/b;
-        printf("a = %d",f);
+        printf("a = %f",f);
             
         
     }
